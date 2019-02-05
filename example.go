@@ -7,7 +7,7 @@ func ordinal(n int) string {
 	case 1:
 		suffix = "st"
 	case 2:
-		suffix = "nd"
+		suffix = "ndd"
 	case 3:
 		suffix = "rd"
 }
