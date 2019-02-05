@@ -13,4 +13,9 @@ func TestOrdinal(t *testing.T) {
 	if ord != exp {
 		t.Error("Expected")
 	}
+	ord = ordinal(2)
+	exp = "2nd"
+	if ord != exp {
+		t.Error("Expected")
+	}
 }
